@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[800, 600]"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="LBresetpassword" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="LBnewpwd" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="TFpwd" min="-2" pref="107" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="BTsave" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="BTremove" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="LByear" min="-2" max="-2" attributes="0"/>
+                              <Component id="LBdob" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="LBaddress" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="LBaccess" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="LBphone" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="LBemail" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="LBcourse" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="CBcourse" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="CByear" min="-2" max="-2" attributes="0"/>
+                                  <Component id="TFaddress" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="CBaccess" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="TFphone" alignment="0" min="-2" pref="165" max="-2" attributes="0"/>
+                                  <Component id="TFemail" alignment="0" min="-2" pref="323" max="-2" attributes="0"/>
+                                  <Component id="DCdob" alignment="0" min="-2" pref="119" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="LBregisterd" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="TFregistred" min="-2" pref="164" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="LBuser" min="-2" max="-2" attributes="0"/>
+                              <Component id="LBname" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="TFname" min="-2" pref="166" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Component id="CBusrs" min="-2" pref="105" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="BTload" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="386" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LBuser" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="CBusrs" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BTload" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TFname" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LBname" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LBregisterd" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TFregistred" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LBcourse" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="CBcourse" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LByear" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="CByear" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="LBdob" min="-2" max="-2" attributes="0"/>
+                  <Component id="DCdob" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="LBaddress" min="-2" max="-2" attributes="0"/>
+                  <Component id="TFaddress" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="CBaccess" min="-2" max="-2" attributes="0"/>
+                  <Component id="LBaccess" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="LBphone" min="-2" max="-2" attributes="0"/>
+                  <Component id="TFphone" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LBemail" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TFemail" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="LBresetpassword" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LBnewpwd" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TFpwd" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="BTsave" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BTremove" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="244" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="LBuser">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Load user:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="CBusrs">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="BTload">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Load"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BTloadActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBname">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TFname">
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBcourse">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Course:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LByear">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Course Year:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="CByear">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="null"/>
+            <StringItem index="1" value="1"/>
+            <StringItem index="2" value="2"/>
+            <StringItem index="3" value="3"/>
+            <StringItem index="4" value="4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBdob">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DoB:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBaddress">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Address:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TFaddress">
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBaccess">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Access:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="CBaccess">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value=""/>
+            <StringItem index="1" value="Admin"/>
+            <StringItem index="2" value="Student"/>
+            <StringItem index="3" value="Teacher"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBphone">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Phone no.:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TFphone">
+    </Component>
+    <Component class="javax.swing.JButton" name="BTsave">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BTsaveActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBemail">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Email:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TFemail">
+    </Component>
+    <Component class="com.toedter.calendar.JDateChooser" name="DCdob">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="CBcourse">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value=""/>
+            <StringItem index="1" value="Math"/>
+            <StringItem index="2" value="Science"/>
+            <StringItem index="3" value="Engineering"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBresetpassword">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Reset the password"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBnewpwd">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="New password:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TFpwd">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="BTremove">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Remove user"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BTremoveActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBregisterd">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Registred on:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TFregistred">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

@@ -1,0 +1,9 @@
+This is a test input
+This is test number 2 to see if can read from file
+This is some text about the Overview of Maths as a subject. 
+This text was input intp a texr file and then read back in and displayed
+in this text area to demonstrate file I/O.
+This is some Text that was input and saved to a file and then read back in and displayed to this text area.
+
+
+
